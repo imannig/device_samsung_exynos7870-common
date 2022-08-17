@@ -16,6 +16,9 @@
 
 LOCAL_PATH := device/samsung/exynos7870-common
 
+# I'm a hacker
+BUILD_BROKEN_DUP_RULES := true
+
 # Include headers
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/exynos7870-common/include
 
